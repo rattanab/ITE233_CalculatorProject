@@ -26,7 +26,7 @@ namespace Project_Calculator_Reborn
         {
             int decValue = Convert.ToInt32(decInputBox.Text);
             string biValue = Convert.ToString(decValue, 2);
-            biTextBox.Text = biValue;
+            biTextBox.Text = biValue; 
         }
     }
 }
