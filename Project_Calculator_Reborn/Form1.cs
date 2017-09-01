@@ -514,5 +514,11 @@ namespace Project_Calculator_Reborn {
 				subtraction();
 			}
 		}
-	}
+
+        private void binaryConversionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+        }
+    }
 }
