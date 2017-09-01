@@ -38,15 +38,15 @@
             this.richTextBox1.Font = new System.Drawing.Font("Open Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(12, 12);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(331, 414);
+            this.richTextBox1.Size = new System.Drawing.Size(331, 117);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "Instrustion\nIt\'s a calculator. Use your common sense.\n";
+            this.richTextBox1.Text = "Instrustion\nIt\'s a calculator.\nUse your common sense.\n";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 481);
+            this.ClientSize = new System.Drawing.Size(355, 113);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form2";
             this.Text = "Instruction";
