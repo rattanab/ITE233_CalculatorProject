@@ -65,6 +65,10 @@
             this.button10x = new System.Windows.Forms.Button();
             this.buttonExp = new System.Windows.Forms.Button();
             this.memDisplay = new System.Windows.Forms.RichTextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.inToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.binaryConversionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -678,6 +682,31 @@
             this.memDisplay.TabIndex = 36;
             this.memDisplay.Text = "";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inToolStripMenuItem,
+            this.binaryConversionToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(447, 24);
+            this.menuStrip1.TabIndex = 37;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // inToolStripMenuItem
+            // 
+            this.inToolStripMenuItem.Name = "inToolStripMenuItem";
+            this.inToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.inToolStripMenuItem.Text = "Instruction";
+            this.inToolStripMenuItem.Click += new System.EventHandler(this.inToolStripMenuItem_Click);
+            // 
+            // binaryConversionToolStripMenuItem
+            // 
+            this.binaryConversionToolStripMenuItem.Name = "binaryConversionToolStripMenuItem";
+            this.binaryConversionToolStripMenuItem.Size = new System.Drawing.Size(115, 20);
+            this.binaryConversionToolStripMenuItem.Text = "Binary Conversion";
+            this.binaryConversionToolStripMenuItem.Click += new System.EventHandler(this.binaryConversionToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -721,10 +750,15 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -767,6 +801,9 @@
         private System.Windows.Forms.Button button10x;
         private System.Windows.Forms.Button buttonExp;
         private System.Windows.Forms.RichTextBox memDisplay;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem inToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem binaryConversionToolStripMenuItem;
     }
 }
 

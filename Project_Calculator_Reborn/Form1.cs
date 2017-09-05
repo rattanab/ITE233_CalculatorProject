@@ -515,6 +515,16 @@ namespace Project_Calculator_Reborn {
 			}
 		}
 
-  
+        private void inToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void binaryConversionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+        }
     }
 }
