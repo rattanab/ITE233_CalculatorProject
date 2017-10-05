@@ -40,7 +40,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(331, 117);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "Instrustion\nIt\'s a calculator.\nUse your common sense.\n";
+            this.richTextBox1.Text = "Instruction\nIt\'s a calculator.\nUse your common sense.\n";
             // 
             // Form2
             // 
